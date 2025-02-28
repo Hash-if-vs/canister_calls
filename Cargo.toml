@@ -1,0 +1,11 @@
+[package]
+name = "canister_call"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.96"
+candid ="0.10.13" 
+ic-agent = "0.39.3"
+serde = "1.0.218"
+tokio = { version = "1", features = ["full"] }
