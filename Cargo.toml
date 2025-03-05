@@ -7,5 +7,7 @@ edition = "2024"
 anyhow = "1.0.96"
 candid ="0.10.13" 
 ic-agent = "0.39.3"
+ic-transport-types = "0.39.3"
 serde = "1.0.218"
 tokio = { version = "1", features = ["full"] }
+jsonwebtoken = "9"
